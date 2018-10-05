@@ -17,6 +17,7 @@ echo 'can pause running builds of CI/CD applications indefinitely. "npm start"'
 echo 'is followed by another command that retrieves the process ID (PID) value'
 echo 'of the previously run process (i.e. "npm start") and writes this value to'
 echo 'the file ".pidfile".'
+echo 'jenkins'
 set -x
 npm start &
 sleep 1
